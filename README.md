@@ -1,7 +1,7 @@
 # App Academy - June 2016 Cohort
 
 ### TA's:
-Use these links to quickly access daily course work. The 'HW' links next to certain days will link to the assignment due on that day.
+Use these links to quickly access daily course work. The 'HW' link next to a day will link to the assignment due on that day.
 
 #### Week 1
 - [Day 1](./Course Work/w1d1/)
