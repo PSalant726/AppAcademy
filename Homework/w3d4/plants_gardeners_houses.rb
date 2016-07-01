@@ -2,59 +2,66 @@
 
 # app/models/gardener.rb
 class Gardener
-  # ...
-  belongs_to :house,
+  belongs_to(
+    :house,
+    class_name: "House",
     foreign_key: :house_id,
-    primary_key: :id,
-    class_name: :House
+    primary_key: :id
+  )
 
-  has_many :plants,
+  has_many(
+    :plants,
+    class_name: "Gardener",
     foreign_key: :gardener_id,
-    primary_key: :id,
-    class_name: :Gardener
-  # ...
+    primary_key: :id
+  )
 end
 
 
 # app/models/plant.rb
 class Plant
-  # ...
-  belongs_to :gardener,
+  belongs_to(
+    :gardener,
+    class_name: "Gardener",
     foreign_key: :gardener_id,
-    primary_key: :id,
-    class_name: :Gardener
+    primary_key: :id
+  )
 
-  has_many :seeds,
+  has_many(
+    :seeds,
+    class_name: "Seed",
     foreign_key: :plant_id,
-    primary_key: :id,
-    class_name: :Seed
-  # ...
+    primary_key: :id
+  )
 end
 
 
 
 # app/models/seed.rb
 class Seed
-  # ...
-  belongs_to :plant,
+  belongs_to(
+    :plant,
+    class_name: "Plant",
     foreign_key: :plant_id,
-    primary_key: :id,
-    class_name: :Plant
-  # ...
+    primary_key: :id
+  )
 end
 
 
 # app/models/house.rb
 class House
-  has_many :gardeners,
+  has_many(
+    :gardeners,
+    class_name: "Gardener",
     foreign_key: :house_id,
-    primary_key: :id,
-    class_name: :Gardener
+    primary_key: :id
+  )
 
-  has_many :plants,
+  has_many(
+    :plants,
     through: :gardeners,
     source: :plants
-  # ...
+  )
 
   def n_plus_one_seeds
     plants = self.plants
