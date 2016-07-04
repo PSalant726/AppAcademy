@@ -75,5 +75,9 @@ class House
 
   def better_seeds_query
     # TODO: your code here
+    plants = self.plants.includes(:seeds)
+    seeds = []
+    plants.each { |plant| seeds << plant.seeds }
+    seeds
   end
 end
