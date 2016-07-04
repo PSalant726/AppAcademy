@@ -37,6 +37,16 @@ end
 # methods on your @shopping_list. Note that you can pass
 # #send a string, allowing for interpolation.
 
+class CorgiPerk
+
+  def initialize(perk_id, shopping_list)
+    @id = perk_id
+    @shopping_list = shopping_list
+  end
+
+  
+
+end
 
 # Phase 2: Dynamic Dispatch
 
