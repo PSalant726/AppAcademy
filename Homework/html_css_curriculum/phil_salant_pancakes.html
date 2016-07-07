@@ -57,6 +57,38 @@
       </ol>
     </section>
 
+    <section id="reviews">
+      <h2>Reviews</h2>
+      <form action="/reviews" method="POST">
+        <label for="reviewer" id="reviewer">Name</label>
+        <input type="text" id="reviewer"/>
+
+        <label for="rating">Rating
+          1<input type="radio" name="rating" value="1" checked>
+          2<input type="radio" name="rating" value="2">
+          3<input type="radio" name="rating" value="3">
+          4<input type="radio" name="rating" value="4">
+          5<input type="radio" name="rating" value="5">
+        </label>
+
+        <label for="expertise">Cooking Expertise
+          <select id="expertise" name="expertise">
+            <option selected disabled="true">Select Cooking Expertise</option>
+            <option value="Sometimes Cook">Sometimes Cook</option>
+            <option value="Cook Everyday">Cook Everyday</option>
+            <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+            <option value="Professional Chef">Professional Chef</option>
+          </select>
+        </label>
+
+        <label>Review
+          <textarea name="review" cols="30" rows="10"></textarea>
+        </label>
+
+        <input type="submit" value="Submit Review">
+      </form>
+    </section>
+
     <footer>
       <p>
         Original recipe definitely came from somewhere!
