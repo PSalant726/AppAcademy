@@ -27,3 +27,4 @@ Use these links to quickly access daily course work. The 'HW' link next to a day
 #### Week 4
 - [Day 1](./Course Work/w4d1/), [HW](./Homework/html_css_curriculum/)
 - [Day 2](./Course Work/w4d2/), [HW](./Homework/html_css_curriculum/)
+- [Day 3](./Course Work/w4d3/), [HW (HTML/CSS)](./Homework/html_css_curriculum/), [HW (Rails Auth)](./Homework/w4d3/)
