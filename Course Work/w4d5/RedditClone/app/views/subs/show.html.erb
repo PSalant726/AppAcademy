@@ -1,0 +1,19 @@
+<h1><%= @sub.title %></h1>
+<p>Moderator: <%= @sub.moderator.username %></p>
+<p>Description: <%= @sub.description %></p>
+<%= link_to "New Post", new_post_url %>
+<% posts = @sub.posts.order(:created_at) if @sub.posts.length > 0 %>
+<% if posts %>
+  <ol>
+    <% posts.each do |post| %>
+      <li>
+        <%= post.title %>
+        <br>
+        Author: <%= post.author.username %>
+        <br>
+        <%= post.content %>
+      </li>
+      <br>
+    <% end %>
+  </ol>
+<% end %>

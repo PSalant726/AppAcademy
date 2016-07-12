@@ -1,0 +1,8 @@
+<h1><%= @user.username %>'s Profile</h1>
+
+<p>There's not much to display here...</p>
+<p>Use the below links to:</p>
+<% if @user == current_user %>
+  <%= link_to "Change your password", edit_user_url(@user) %><br>
+  <%= link_to "Create a new sub", new_sub_url %><br>
+<% end %>
