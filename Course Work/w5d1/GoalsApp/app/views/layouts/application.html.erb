@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Winnerly</title>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<% if current_user %>
+  <p>Welcome to Winnerly, <%= current_user.username %>!<p>
+  <form action="<%= session_url %>" method="post">
+    <%= auth_token %>
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="Logout">
+  </form>
+<% end %>
+
+<% if flash[:errors] %>
+  <ul>
+    <% flash[:errors].each do |error| %>
+      <li><%= error %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= yield %>
+
+</body>
+</html>
