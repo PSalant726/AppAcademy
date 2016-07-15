@@ -36,3 +36,4 @@ Use these links to quickly access daily course work. The 'HW' link next to a day
 - Day 2
 - Day 3, [HW](./Homework/w5d3.js)
 - [Day 4](./Course Work/w5d4/), [HW](./Homework/w5d4.js)
+- [Day 5](./Course Work/w5d5/), [HW (HTML/CSS)](./Homework/html_css_curriculum), [HW (JS)](./Homework/w5d5.js)
