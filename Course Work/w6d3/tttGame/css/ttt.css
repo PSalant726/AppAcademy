@@ -1,0 +1,52 @@
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.board {
+  margin: auto;
+  padding: 0;
+  width: 462px;
+  list-style-type: none;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.square {
+  border-left: 5px solid black;
+  border-top: 5px solid black;
+  padding: 74px;
+  width: 1px;
+  float: left;
+  background-color: gray;
+}
+
+.square:hover {
+  background-color: yellow;
+}
+
+.x-square, .o-square {
+  border-left: 5px solid black;
+  border-top: 5px solid black;
+  padding: 0px;
+  width: 149px;
+  float: left;
+  background-color: white;
+  font-weight: bold;
+  font-size: 129px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.x-square {
+  color: red;
+}
+
+.o-square {
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+}

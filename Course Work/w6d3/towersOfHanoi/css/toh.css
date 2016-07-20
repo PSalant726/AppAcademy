@@ -1,0 +1,99 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea,
+button {
+  cursor: pointer;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Clearfix */
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.tower {
+  float: left;
+  height: 340px;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-bottom: 10px solid black;
+  position: relative;
+}
+.tower:hover {
+  border-bottom: 10px solid yellow;
+}
+
+.discs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.towers {
+  width:960px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.disc {
+  height: 100px;
+  background-color: blue;
+  margin: 10px auto;
+  border-radius: 50px;
+}
+
+#disc-0 {
+  width: 120px;
+  background-color: red;
+}
+
+#disc-1 {
+  width: 180px;
+  background-color: green;
+}
+
+#disc-2 {
+  width: 260px;
+  background-color: blue;
+}
