@@ -1,0 +1,52 @@
+body {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: roboto, sans-serif;
+  background-color: #eee;
+}
+
+header {
+  z-index: 1;
+  position: relative;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  width: 900px;
+  margin: auto;
+}
+
+.nav_link:hover {
+  background-color: black;
+}
+
+h1 {
+  font-weight: 700;
+  float: left;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+ul {
+  float: right;
+  border-right: 1px solid #ccc;
+}
+
+li {
+  float: left;
+  /*margin: 0 10px;*/
+  font-weight: 400;
+  padding: 10px 20px;
+  border-left: 1px solid #ccc;
+}
