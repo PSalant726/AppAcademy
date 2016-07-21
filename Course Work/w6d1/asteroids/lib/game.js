@@ -11,7 +11,7 @@ const Game = function () {
 
 Game.DIM_X = 1400;
 Game.DIM_Y = 900;
-Game.NUM_ASTEROIDS = 10;
+Game.NUM_ASTEROIDS = 100;
 
 Game.prototype.addAsteroids = function () {
   for (let i = 0; i < this.numAsteroids; i++ ){
