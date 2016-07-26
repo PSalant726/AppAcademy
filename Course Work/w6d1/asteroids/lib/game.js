@@ -63,7 +63,7 @@ Game.prototype.checkCollisions = function () {
     that.asteroids.forEach(function (asteroid2) {
       if (asteroid !== asteroid2) {
         if (asteroid.isCollidedWith(asteroid2)) {
-          asteroid.changeDirection(asteroid2);
+          // asteroid.changeDirection(asteroid2);
         }
       }
     });
