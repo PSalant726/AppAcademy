@@ -47,3 +47,4 @@ Use these links to quickly access daily course work. The 'HW' link next to a day
 
 #### Week 7
 - [Day 1](./Course Work/w7d1/)
+- [Day 2](./Course Work/w7d2/)
