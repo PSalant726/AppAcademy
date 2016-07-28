@@ -1,0 +1,29 @@
+.key {
+  float: left;
+  height: 200px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+#CSh4, #DSh4, #FSh4, #GSh4, #ASh4, #CSh5, #DSh5 {
+  background-color: black;
+  width: 50px;
+  height: 125px;
+  color: white;
+}
+
+.pressed{
+  background-color: aquamarine!important;
+  color: black!important;
+}
+
+.organ {
+  position: absolute;
+}
+
+#content {
+  margin: auto;
+  position: relative;
+}
