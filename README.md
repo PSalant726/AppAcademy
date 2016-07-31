@@ -49,3 +49,5 @@ Use these links to quickly access daily course work. The 'HW' link next to a day
 - [Day 1](./Course Work/w7d1/)
 - [Day 2](./Course Work/w7d2/)
 - [Day 3](./Course Work/w7d3/)
+- [Day 4](./Course Work/w7d4/)
+- [Day 5](./Course Work/w7d5/)
