@@ -1,0 +1,5 @@
+Pokedex/node_modules/*
+*bundle.js*
+*.DS_Store
+*sprockets*
+skeleton.zip
