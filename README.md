@@ -3,7 +3,7 @@
 ### TA's:
 Use these links to quickly access daily course work. The 'HW' link next to a day will link to the assignment due on that day.
 
-#### Capstone (NFormD, Clone of Medium)
+### Capstone (Nformd, Clone of Medium)
 [NFormD](./Course Work/Capstone/)
 
 #### Week 1
