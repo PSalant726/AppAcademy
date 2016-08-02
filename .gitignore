@@ -19,4 +19,6 @@
 /Practice*/*
 /*.rb
 /Curriculum/*
+
+#Ignore the Capstone project, which contains it's own repo
 /Nformd/*
