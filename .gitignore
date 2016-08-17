@@ -26,3 +26,6 @@
 
 # Ignore the JavaScript game, which contains it's own repo
 /Bat-Man/*
+
+# Ignore the code-intensive project, which contains it's own repo
+/pQuery/*
