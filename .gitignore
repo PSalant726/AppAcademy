@@ -29,3 +29,6 @@
 
 # Ignore the code-intensive project, which contains it's own repo
 /pQuery/*
+
+# Ignore the personal portfolio site, which contains it's own repo
+/PSalant726.github.io/*
