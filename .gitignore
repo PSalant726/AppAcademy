@@ -32,3 +32,6 @@
 
 # Ignore the personal portfolio site, which contains it's own repo
 /PSalant726.github.io/*
+
+# Ignore the Chrome tab, which contains it's own repo
+/app-academy-chrome-tab-master/*
